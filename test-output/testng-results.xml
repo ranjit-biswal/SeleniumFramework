@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40642" started-at="2021-10-05T09:11:41Z" finished-at="2021-10-05T09:12:21Z">
+  <suite name="Suite" duration-ms="69969" started-at="2021-11-17T05:14:16Z" finished-at="2021-11-17T05:15:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40642" started-at="2021-10-05T09:11:41Z" finished-at="2021-10-05T09:12:21Z">
-      <class name="com.biswal.Selenium.HomePageTest">
-        <test-method status="PASS" signature="initialiseDriver()[pri:0, instance:com.biswal.Selenium.HomePageTest@627551fb]" name="initialiseDriver" is-config="true" duration-ms="38809" started-at="2021-10-05T14:41:41Z" finished-at="2021-10-05T14:42:19Z">
+    <test name="Test" duration-ms="69969" started-at="2021-11-17T05:14:16Z" finished-at="2021-11-17T05:15:26Z">
+      <class name="test.HomePageTest">
+        <test-method status="PASS" signature="initialiseDriver()[pri:0, instance:test.HomePageTest@711f39f9]" name="initialiseDriver" is-config="true" duration-ms="69185" started-at="2021-11-17T10:44:16Z" finished-at="2021-11-17T10:45:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseDriver -->
-        <test-method status="PASS" signature="getLogin()[pri:0, instance:com.biswal.Selenium.HomePageTest@627551fb]" name="getLogin" duration-ms="1760" started-at="2021-10-05T14:42:19Z" finished-at="2021-10-05T14:42:21Z">
+        <test-method status="PASS" signature="loginWebPortal()[pri:0, instance:test.HomePageTest@711f39f9]" name="loginWebPortal" duration-ms="757" started-at="2021-11-17T10:45:25Z" finished-at="2021-11-17T10:45:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLogin -->
-      </class> <!-- com.biswal.Selenium.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginWebPortal -->
+      </class> <!-- test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
